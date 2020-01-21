@@ -49,4 +49,19 @@ npm run build --report
    express --version
    express expressbackend
    
+3. 通过git创建本地创库，并推送至github
+git init
+git add .
+git commit -m "First commit"
+在web上创建项目expressbackend
+git remote add origin https://github.com/soho-smarthome/expressbackend.git
+( git remote rm origin)
+(vim .git/config  删除['',''])
+git remote -v
+git push origin master
+git pull origin master
+
+
+git push origin master -f
+   
    
